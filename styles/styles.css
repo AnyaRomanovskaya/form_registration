@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunitobold.woff");
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+}
+
+.logo {
+    margin: 27px 0 112px 0;
+    text-align: center;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 191px;
+}
+
+.main__form {
+    max-width: 452px;
+    margin-right: 95px;
+}
+
+.main__form-title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.main__form-description {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+.form__item {
+    max-width: 452px;
+}
+
+.form__item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.form__item-label {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+
+.form__item-label:last-child {
+    font-size: 16px;
+    color: #636363;
+}
+
+.form__item-input {
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+}
+
+.error__input {
+    display: none;
+    position: absolute;
+    color: red;
+}
+
+.checkbox {
+    display: inline;
+    margin-right: 10px;
+    width: auto;
+    font-size: 16px;
+    color: #636363;
+}
+
+.button {
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: 0;
+    margin: 40px auto 44px;
+    background: #DD3142;
+    border-radius: 40px;
+    padding: 21px 0 25px 0;
+    width: 210px;
+    cursor: pointer;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__question {
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    max-width: 350px;
+    position: absolute;
+    left: 779px;
+    top: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.modal__button {
+    width: 150px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.modal__text {
+    font-size: 22px;
+    color: #000000;
+}
